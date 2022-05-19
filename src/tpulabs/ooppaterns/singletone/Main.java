@@ -15,6 +15,7 @@ public class Main {
         user.createUserAccount(email, password);
         user2.createUserAccount(email2, password2);
 
+
         //Write a message
         CommonChat.getCommonChat().writeToChat(user, "Всем привет");
         CommonChat.getCommonChat().showChat();
